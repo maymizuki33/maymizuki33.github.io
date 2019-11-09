@@ -5,19 +5,49 @@ body {
 	font-family: urw-din,sans-serif;
 	font-weight: 700;
 	font-style: normal;
+	padding-top: 3%;
+	padding-left: 1%;
+	padding-right: 1%;
+}
+
+header {
+	padding-bottom: 10px;
+}
+
+.logo {
+	float: left;
+	padding-left: 6%;
 }
 
 nav {
+	text-align: right;
+	word-spacing: 2em;
 	overflow: hidden;
 	margin-top: 0px;
 	margin-bottom: auto;
-	padding-top: 0px;
+	padding-top: 30px;
 	padding-botoom: 3%;
-	width: 93%;
-	max-width: 960px;
+	max-width: 70%;
+	padding-left: 6%;
 	text-decoration: none;
 }
 
 a {
 	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	color: #EB1CFF;
+}
+
+footer {
+	text-align: center;
+	paddiing-top: 70px;
+	padding-bottom: 70px;
+}
+
+h3:hover {
+	padding-left: 30px;
+	transition: 0.5s;
 }
