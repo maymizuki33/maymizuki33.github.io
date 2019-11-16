@@ -10,8 +10,19 @@ body {
 	padding-right: 1%;
 }
 
+p {
+	font-family: urw-din,sans-serif;
+	font-weight: 100;
+}
+
+p.skills {
+	font-weight: bolder;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
 header {
-	padding-bottom: 10px;
+	margin-bottom: 50px;
 }
 
 .logo {
@@ -25,11 +36,37 @@ nav {
 	overflow: hidden;
 	margin-top: 0px;
 	margin-bottom: auto;
-	padding-top: 30px;
-	padding-botoom: 3%;
-	max-width: 70%;
+	padding-top: 0px;
+	padding-botoom: 10%;
+	max-width: 80%;
 	padding-left: 6%;
 	text-decoration: none;
+}
+
+.FUEL {
+	margin-top: 40px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.clarendon {
+	margin-top: 40px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.overview {
+	margin-right: 10%;
+}
+
+section {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	max-width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-bottom: 50px;
 }
 
 a {
@@ -38,7 +75,7 @@ a {
 }
 
 a:hover {
-	color: #EB1CFF;
+	color: #FF4E30;
 }
 
 footer {
@@ -51,3 +88,19 @@ h3:hover {
 	padding-left: 30px;
 	transition: 0.5s;
 }
+
+h1 {
+	font-size: 220%;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+}
+
+body.contact {
+	background-image: url("./images/background.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+
