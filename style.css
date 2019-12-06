@@ -55,6 +55,12 @@ nav {
 	text-align: center;
 }
 
+.homespace {
+	margin-top: 100px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
 .overview {
 	margin-right: 10%;
 }
@@ -103,4 +109,28 @@ body.contact {
 	background-attachment: fixed;
 }
 
+.webdesign_hover{
+	position:relative;
+	text-align: center;
+	margin-top: 50px;
+}
 
+.webdesign_hover h2{
+	position: absolute;
+	color: white;
+	top: 50%;
+	left: 50%;
+	font-size: 2em;
+	transform: translate(-50%, -50%);
+}
+
+.webdesign_hover :hover{
+	transition: 0.3s;
+	opacity: 0.8;
+}
+
+.webdesign_hover h2:hover{
+	color: #FF4E30;
+	transition: 0.3s;
+	opacity: 1;
+}
