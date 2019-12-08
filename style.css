@@ -8,6 +8,9 @@ body {
 	padding-top: 3%;
 	padding-left: 1%;
 	padding-right: 1%;
+	max-width: 1024px;
+	margin-right: auto;
+	margin-left: auto; 
 }
 
 p {
@@ -27,11 +30,11 @@ header {
 
 .logo {
 	float: left;
-	padding-left: 6%;
 }
 
 nav {
 	text-align: right;
+	float: right;
 	word-spacing: 2em;
 	overflow: hidden;
 	margin-top: 0px;
@@ -41,6 +44,15 @@ nav {
 	max-width: 80%;
 	padding-left: 6%;
 	text-decoration: none;
+}
+
+nav a{
+	transition: 0.3s;
+}
+
+nav a:hover{
+	letter-spacing: 3px;
+	transition: 0.5s;
 }
 
 .FUEL {
@@ -90,47 +102,159 @@ footer {
 	padding-bottom: 70px;
 }
 
+h3 {
+	transition: 0.5s;
+}
+
 h3:hover {
 	padding-left: 30px;
+}
+
+h4 {
 	transition: 0.5s;
+}
+
+h4:hover {
+	transform: scale(1.3);
 }
 
 h1 {
 	font-size: 220%;
 	margin-bottom: 0px;
 	margin-top: 0px;
-	margin-bottom: 0px;
 	padding-top: 0px;
-}
-
-body.contact {
-	background-image: url("./images/background.png");
-	background-repeat: no-repeat;
-	background-attachment: fixed;
 }
 
 .webdesign_hover{
 	position:relative;
 	text-align: center;
 	margin-top: 50px;
+	transition: 0.3s;
+}
+
+.webdesign_hover :hover{
+	opacity: 0.9;
 }
 
 .webdesign_hover h2{
 	position: absolute;
 	color: white;
-	top: 50%;
+	top: 45%;
 	left: 50%;
 	font-size: 2em;
 	transform: translate(-50%, -50%);
-}
-
-.webdesign_hover :hover{
 	transition: 0.3s;
-	opacity: 0.8;
 }
 
 .webdesign_hover h2:hover{
 	color: #FF4E30;
-	transition: 0.3s;
-	opacity: 1;
+	padding-bottom: 30px;
 }
+
+
+.posterdesign_hover{
+	position:relative;
+	text-align: center;
+	margin-top: 50px;
+	transition: 0.3s;
+}
+
+.posterdesign_hover :hover{
+	opacity: 0.9;
+}
+
+.posterdesign_hover h2{
+	position: absolute;
+	color: white;
+	top: 45%;
+	left: 50%;
+	font-size: 2em;
+	transform: translate(-50%, -50%);
+	transition: 0.3s;
+}
+
+.posterdesign_hover h2:hover{
+	color: #FF4E30;
+	padding-bottom: 30px;
+}
+
+
+.otherworks_hover{
+	position:relative;
+	text-align: center;
+	margin-top: 50px;
+	transition: 0.3s;
+}
+
+.otherworks_hover :hover{
+	opacity: 0.9;
+}
+
+.otherworks_hover h2{
+	position: absolute;
+	color: white;
+	top: 45%;
+	left: 50%;
+	font-size: 2em;
+	transform: translate(-50%, -50%);
+	transition: 0.3s;
+}
+
+.otherworks_hover h2:hover{
+	color: #FF4E30;
+	padding-bottom: 30px;
+}
+
+img.emailicon {
+	width: 100px;
+	height: auto;
+	margin-top: 20px;
+	margin-right: 20px;
+	transition: 0.4s;
+}
+
+.emailaddress h3{
+	float: left;
+	font-size: 2em;
+	transition: 0.5s;
+	color: white;
+}
+
+.emailaddress h3:hover{
+	color: white;
+}
+
+img.instagramicon {
+	width: 100px;
+	height: auto;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+
+.instagram h3{
+	float: left;
+	font-size: 2em;
+	transition: 0.5s;
+	color: white;
+}
+
+.instagram h3:hover{
+	color: white;
+}
+
+
+section.contact{
+	max-width: 50%;
+	margin-right: auto;
+	margin-left: auto;
+	outline: none;
+	padding: 50px;
+	transition: 0.5s;
+	width: 0px;
+}
+
+section.contact:hover{
+	background-color: #FF4E30;
+	width: 500px;
+}
+
