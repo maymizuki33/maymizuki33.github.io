@@ -13,6 +13,10 @@ body {
 	margin-left: auto; 
 }
 
+a.logo:focus {
+	outline: none;
+}
+
 p {
 	font-family: urw-din,sans-serif;
 	font-weight: 100;
@@ -92,6 +96,10 @@ a {
 	color: black;
 }
 
+a:focus{
+	outline: none;
+}
+
 a:hover {
 	color: #FF4E30;
 }
@@ -151,7 +159,6 @@ h1 {
 	padding-bottom: 30px;
 }
 
-
 .posterdesign_hover{
 	position:relative;
 	text-align: center;
@@ -177,7 +184,6 @@ h1 {
 	color: #FF4E30;
 	padding-bottom: 30px;
 }
-
 
 .otherworks_hover{
 	position:relative;
@@ -205,12 +211,15 @@ h1 {
 	padding-bottom: 30px;
 }
 
+
+
 img.emailicon {
 	width: 100px;
 	height: auto;
 	margin-top: 20px;
 	margin-right: 20px;
 	transition: 0.4s;
+	float:none;
 }
 
 .emailaddress h3{
@@ -251,10 +260,22 @@ section.contact{
 	padding: 50px;
 	transition: 0.5s;
 	width: 0px;
+	border-top-right-radius: 110px;
+	border-top-left-radius: 110px;
+	border-bottom-right-radius: 110px;
+    border-bottom-left-radius: 110px;
 }
 
 section.contact:hover{
 	background-color: #FF4E30;
-	width: 500px;
+	width: 550px;
+	border-top-right-radius: 110px;
+	border-top-left-radius: 110px;
+	border-bottom-right-radius: 110px;
+    border-bottom-left-radius: 110px;
 }
+
+
+
+
 
