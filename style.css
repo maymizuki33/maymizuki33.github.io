@@ -36,6 +36,22 @@ p.GraphicDesign {
 	margin: 250px 0px 250px 0px;
 }
 
+img.face {
+	width: 450px;
+	height: auto;
+	margin: 0px 0px 0px 100px;
+}
+
+img.hand {
+	width: 200px;
+	height: auto;
+}
+
+.hand {
+	text-align: center;
+	margin-top: 100px;
+}
+
 header {
 	margin-bottom: 50px;
 }
